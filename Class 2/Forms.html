@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Personal Information Form</h3>
+    <form>
+
+
+        <label>Name</label>
+        <input placeholder="Enter your name" type="text"/>
+        <label>Email</label>
+        <input type="email"/>
+        <label>Password</label>
+        <input type="password"/>
+        <label>Phone Number</label>
+        <input type="number"/>
+        <label>Age</label>
+        <input type="number" min="1" max="100"/>
+        <label>DOB</label>
+        <input type="date" min="1985-06-22" max="2023-10-03"/>
+
+        <p>Favorite Food</p>
+        <input type="checkbox"/>
+        <label>Pizza</label>
+        <input type="checkbox"/>
+        <label>Biryani</label>
+
+        <label>Upload the picture</label>
+        <input type="file"/>
+
+        <!--radio button doesnt allow multiple selection-->
+        <p>Gender</p>
+        <label>Male</label>
+        <input type="radio" name="gender"/>
+        <label>Female</label>
+        <input type="radio" name="gender"/>
+
+        <!--Using dropdown menu-->
+        <label>Car</label>
+        <select>
+            <option>Maruti</option>
+            <option>BMW</option>
+            <option>Ferrari</option>
+            <option>Rolls Royce</option>
+        </select>
+
+        <label>Cars color</label>
+        <input type="color"/>
+
+        <label>Submit</label>
+        <button type="submit">Submit Form</button>
+
+        
+    </form>
+</body>
+</html>
